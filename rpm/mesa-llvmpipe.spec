@@ -172,8 +172,8 @@ Mesa libGL runtime library.
 Summary:    Mesa libGL development package
 Group:      Development/Libraries
 Requires:   %{name} = %{version}-%{release}
-Requires:   mesa-llvmpipe-libGL = %{version}-%{release}
 %if %{with X11}
+Requires:   mesa-llvmpipe-libGL = %{version}-%{release}
 Requires:   libX11-devel
 %endif
 Provides:   libGL-devel
